@@ -1,0 +1,22 @@
+{
+  "name": "03-css-launchx",
+  "version": "1.0.0",
+  "description": "práctica css launchx",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i css/tailwind.css -o css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iam-leo/LaunchX-Latam-CSS.git"
+  },
+  "author": "Leo Ss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iam-leo/LaunchX-Latam-CSS/issues"
+  },
+  "homepage": "https://github.com/iam-leo/LaunchX-Latam-CSS#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.3"
+  }
+}
